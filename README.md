@@ -113,13 +113,13 @@ we start by checking if openssh service is installed or not  <br><br>
 <br><br>
 
 #Step 2
-we now going to change sshd_config to allow GSSAPI <br><br>
+now we are going to change sshd_config to allow GSSAPI <br><br>
 `sudo nano /etc/ssh/sshd_config` <br><br>
 you need to make sure that GSSAPIAuthentication and GSSAPICleanupCredentials are enabled <br><br> 
 ![Screenshot (15)](https://user-images.githubusercontent.com/42326533/236084591-420bb00e-a299-4e91-9c75-4ee66f47996e.png)
 
 #Step 3
-we should to the same with ssh_config <br><br>
+we do the same for ssh_config <br><br>
 `sudo nano /etc/ssh/ssh_config` <br><br>
 ![Screenshot (16)](https://user-images.githubusercontent.com/42326533/236084681-c98ee84d-5cee-40ea-9c84-874977abe951.png)
 <br><br>
