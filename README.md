@@ -51,7 +51,7 @@ Initialization Base Realm with <br> <br>
 ![Screenshot (12)](https://user-images.githubusercontent.com/42326533/236070861-b9d3cef2-035b-41d9-b871-feb8a91d0366.png)
 <br> <br>
 
-Change kadm5.acl <br> <br>  `sudo nano /etc/krb5kc/kadm5.acl`  <br> <br> 
+Change kadm5.acl <br> <br>  `sudo nano /etc/krb5kdc/kadm5.acl`  <br> <br> 
 ![Screenshot (13)](https://user-images.githubusercontent.com/42326533/236071050-b59aa275-5791-4600-ae2b-b9fff11417bd.png)
 <br> <br>
 
