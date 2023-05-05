@@ -124,6 +124,11 @@ we do the same for ssh_config <br><br>
 ![Screenshot (16)](https://user-images.githubusercontent.com/42326533/236084681-c98ee84d-5cee-40ea-9c84-874977abe951.png)
 <br><br>
 
+Then we need to restart openssh service <br><br>
+`sudo systemctl restart ssh`
+<br><br>
+
+
 ## Kerberos Client
 
 in client side we chould install the krb5-user <br><br>
